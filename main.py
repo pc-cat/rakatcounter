@@ -110,7 +110,7 @@ while cap.isOpened():
                 message = "Calibration completed."
                 message_timer = time.time()
             else:
-                cv2.putText(frame, f'Calibrating in: {countdown}', (30, 120),
+                cv2.putText(frame, f'Calibrating in: {countdown}', (30, 160),
                             cv2.FONT_HERSHEY_SIMPLEX, 2, (0, 255, 255), 4)
 
         elif tracking_active and calibrated:
