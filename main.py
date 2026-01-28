@@ -18,7 +18,7 @@ message = ""
 message_timer = 0
 
 buttons = {
-    "start": {"pos": (20, 20), "size": (180, 60), "label": "Start"},
+    "start": {"pos": (20, 20), "size": (180, 60), "label": "Begin"},
     "calibrate": {"pos": (220, 20), "size": (220, 60), "label": "Calibrate"},
     "reset": {"pos": (460, 20), "size": (160, 60), "label": "Reset"},
 }
